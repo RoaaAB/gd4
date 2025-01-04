@@ -1,18 +1,17 @@
+/* App.css */
+
+/* Class for the logo image */
+.logo {
+  width:  340px;  /* Set the width you prefer */
+  height: auto;  /* Maintain the aspect ratio */
+}
+
+/* Optional: Style for the App container */
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
+/* Optional: Style for the header section */
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -22,17 +21,4 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
